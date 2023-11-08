@@ -1,8 +1,12 @@
 import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native'
 import React from 'react'
 import * as Animatable from 'react-native-animatable'
+import { useNavigation } from '@react-navigation/native'
 
 export default function TelaInicial() {
+
+  const navigation = useNavigation();
+
   return (
     <View style ={styles.container}>
 
@@ -16,7 +20,11 @@ export default function TelaInicial() {
         <Animatable.View delay={600} animation="fadeInUp" style={styles.containerForm}>
             <Text style={styles.titulo} > Seja Bem vindo ao meu aplicativo!</Text>
             <Text style={styles.texto} >Quer saber mais sobre a minha vida profissional?Clique em acessar.</Text>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity 
+            style={styles.button}
+             onPress={()=>{
+              navigation.navigate('Curriculo')
+             }} >
              <Text style={styles.buttonText}> 
                 Acessar
              </Text>
