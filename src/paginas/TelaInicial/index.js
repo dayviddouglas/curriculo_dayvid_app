@@ -14,7 +14,7 @@ export default function TelaInicial() {
             <Animatable.Image 
             animation="flipInY"
             source = {require('../../../assets/foto-github-dayvid.jpg') } 
-            style={{width:'100%'}} 
+            style={styles.imgLogo} 
             resizeMode='contain'/>
         </View>
         <Animatable.View delay={600} animation="fadeInUp" style={styles.containerForm}>
@@ -49,6 +49,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems:'center',
   },
+
+  imgLogo:{
+    width:'100%',
+    borderWidth: 5,
+     borderColor:"#fff", 
+     borderRadius:200
+  },
+
   containerForm:{
     flex:1,
     backgroundColor:'#FFF',
@@ -85,6 +93,7 @@ const styles = StyleSheet.create({
     color:'#FFF',
     fontWeight: 'bold',
   }
+
 
   
 

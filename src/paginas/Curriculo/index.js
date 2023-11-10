@@ -1,8 +1,12 @@
-import { View, Text,StyleSheet, FlatList } from 'react-native'
+import { View, Text,StyleSheet, TouchableOpacity } from 'react-native'
 import React from 'react'
+import { useNavigation } from '@react-navigation/native'
 import * as Animatable from 'react-native-animatable'
 
 export default function Curriculo() {
+
+  
+
   return (
     <Animatable.View  animation="fadeInLeft" delay={500} style ={styles.container}>
 
@@ -40,10 +44,7 @@ export default function Curriculo() {
      Auxiliar Financeiro na Agroquímica do Nordeste (Nov 2021 - Fev
 2022).
 
-
-
       </Text>
-
 
 
     </Animatable.View>
@@ -97,8 +98,7 @@ const styles = StyleSheet.create({
     experiencias: {
       fontSize: 12,
       marginTop:10
-    }
-
+    },
 
 
 })
