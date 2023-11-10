@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet} from 'react-native'
 import React from 'react'
 import * as Animatable from 'react-native-animatable'
-import Tab from '../../tab'
+
 
 export default function InfoPessoais() {
   return (
@@ -34,7 +34,8 @@ export default function InfoPessoais() {
 const styles = StyleSheet.create({
   container:{
     flex:1,
-    paddingHorizontal: '2%'
+    paddingHorizontal: '2%',
+    
    },
   tituloInfoPessoais: {
     fontSize: 18,

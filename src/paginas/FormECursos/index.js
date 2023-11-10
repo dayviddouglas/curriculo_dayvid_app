@@ -2,6 +2,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import * as Animatable from 'react-native-animatable'
 
+
 export default function FormECursos() {
   return (
     < Animatable.View  animation="fadeInLeft" delay={500} style={styles.container}>
@@ -22,7 +23,7 @@ export default function FormECursos() {
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        paddingHorizontal: '2%'
+        paddingHorizontal: '2%',
        },
 
        tituloFormacoes:{
