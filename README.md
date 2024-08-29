@@ -18,7 +18,7 @@ Ter uma IDE instalada no dispositívo ao qual irá executar a aplicação. Dever
 
 ###  🛠️ Construído com
 1. React Native: framework para construir aplicações mobile.
-2. Expo: Ferramenta para executar em React Native.
+2. Expo: Ferramenta para executar aplicações em React Native.
    
 ## ✒️ Autor
 
