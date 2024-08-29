@@ -17,9 +17,9 @@ Para executar esta aplicação deve realizar as seguintes etapas:
 Ter uma IDE instalada no dispositívo ao qual irá executar a aplicação. Deverá está instalado o node no dispositivo. No que se refere a versões de gerenciadores de pacotes: npm na versão 9.5.1 ou superior ou yarn na versão 1.22.21 ou superior.
 
 ###  🛠️ Construído com
-React Native: framework para construir aplicações mobile.
-Expo: Ferramenta para executar em React Native.
-
+1. React Native: framework para construir aplicações mobile.
+2. Expo: Ferramenta para executar em React Native.
+   
 ## ✒️ Autor
 
 **Dayvid Douglas** - *Criador do projeto* - [Dayvid Douglas Campelo de Lima.](https://github.com/dayviddouglas)
